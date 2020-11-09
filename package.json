@@ -4,6 +4,7 @@
   "description": "bingobot was a sad attempt to generate Bingo cards for the upcoming E3 2018 which was not adopted by guild members. He now exists here for your own enjoyment.",
   "main": "bingobot.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
     "start": "node bingobot.js"
   },
   "repository": {
@@ -26,18 +27,20 @@
     "node": "12.x"
   },
   "dependencies": {
-    "bufferutil": "^3.0.5",
+    "bufferutil": "^4.0.2",
     "deep-extend": "^0.6.0",
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.10.0",
-    "dotenv": "^6.0.0",
+    "dotenv": "^8.2.0",
     "erlpack": "github:discordapp/erlpack",
     "fs": "0.0.1-security",
     "hoek": "^5.0.3",
     "libsodium": "^0.7.3",
     "libsodium-wrappers": "^0.7.3",
+    "node-gyp": "^3.7.0",
     "node-opus": "^0.2.9",
     "opusscript": "0.0.6",
+    "rebuild": "^0.1.2",
     "sodium": "^2.0.3",
     "sqlite": "^2.9.2",
     "uws": "^9.148.0"
