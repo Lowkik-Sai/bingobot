@@ -36,7 +36,6 @@
     "hoek": "^5.0.3",
     "libsodium": "^0.7.3",
     "libsodium-wrappers": "^0.7.3",
-    "node-gyp": "^3.7.0",
     "node-opus": "^0.2.9",
     "opusscript": "0.0.6",
     "rebuild": "^0.1.2",
